@@ -1,0 +1,27 @@
+Command Prompt Commands
+
+git config --global user.name "username"
+Sets your Git username globally, which is used for commits. Replace "username" with your actual name.
+
+git config --global user.email "username@gmail.com"
+Sets your email globally in Git, used to identify commits. Replace "username@gmail.com" with your actual email.
+
+Git Commands in VS Code
+
+git init
+Initializes a new Git repository in the current directory.
+
+git clone repo.git
+Copies an existing remote repository (repo.git) to your local machine.
+
+cd MlOps
+Navigates into the "MlOps" directory.
+
+git add .
+Stages all files in the current directory, preparing them for commit.
+
+git commit -m "message"
+Creates a commit with a message describing the changes.
+
+git push origin main
+Pushes the committed changes to the main branch on the remote repository (origin).
